@@ -9,7 +9,7 @@ public abstract class Document {
 
     public abstract String[] analizeaza();
 
-    @Override
+    
     public String toString() {
         String res = "";
         for (String cuvant : continut) {
