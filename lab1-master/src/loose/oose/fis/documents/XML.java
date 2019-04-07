@@ -7,7 +7,7 @@ public class XML extends Document {
         super(continut);
     }
 
-    @Override
+
     public String[] analizeaza() {
         String[] res = new String[continut.length];
         int      pos = 0;
